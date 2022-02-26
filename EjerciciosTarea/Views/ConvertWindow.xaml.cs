@@ -15,9 +15,7 @@ using System.Windows.Shapes;
 
 namespace EjerciciosTarea.Views
 {
-    /// <summary>
-    /// Interaction logic for ConvertWindow.xaml
-    /// </summary>
+   
     public partial class ConvertWindow : Window
     {
         ConvertController cc;
@@ -32,23 +30,7 @@ namespace EjerciciosTarea.Views
             RoutedEventHandler r = new RoutedEventHandler(cc.ConvertEventHandler);
             this.btnCalc.Click += r;
         }
-        /*public Conversiones GetData()
-        {
-            Conversiones conversiones = new Conversiones
-            {
-                Dia = (DateTime)DatePicker.SelectedDate,
-                Cambio1 = Convert1.SelectedValue.ToString(),
-                Cambio2 = Convert2.SelectedValue.ToString(),
-                Monto1 = Convert.ToDouble(txt1.Text),
-                //Monto2 = Convert.ToDouble(txt2.Text)
-            };
-            return conversiones;
-        }
-        public void SetData(Conversiones conversiones)
-        {
-            double x = Convert.ToDouble(txt2.Text);
-            x = conversiones.Monto2;
-        }*/
+
 
 
     }

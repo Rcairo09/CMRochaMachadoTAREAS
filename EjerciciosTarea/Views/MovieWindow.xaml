@@ -18,12 +18,25 @@
             <ColumnDefinition Width="*"></ColumnDefinition>
             <ColumnDefinition Width="*"></ColumnDefinition>
         </Grid.ColumnDefinitions>
-        <Label Content="Pelicula" FontWeight="Bold" Grid.Row="0" Grid.Column="0" Margin="10,10,155,35"/>
-        <ComboBox x:Name="cboxMovie" Grid.Row="0" Grid.ColumnSpan="2" Margin="89,10,33,35">
+        <Label Content="Pelicula" FontWeight="Bold" Grid.Row="0" Grid.Column="0" Margin="10,10,155,10"/>
+        <ComboBox x:Name="cboxMovie" Grid.Row="0" Grid.ColumnSpan="2" Margin="89,10,33,24" SelectionChanged="cboxChecked">
             <ComboBoxItem>STAR WARS – El ascenso de Skywalker</ComboBoxItem>
         </ComboBox>
-        <Label Content="Tipo de Sala" FontWeight="Bold" Grid.Column="0" Margin="10,71,131,45" Grid.RowSpan="2"/>
-        <CheckBox x:Name="cbox2D" Content="2D" Grid.Row="1" Grid.Column="0" Margin="94,24,76,35"/>
-        <CheckBox x:Name="cbox3D" Content="3D" Grid.Row="1" Grid.Column="1" Margin="94,24,76,35"/>
+        <Label Content="Tipo de Sala" FontWeight="ExtraBold" Grid.Column="0" Margin="10,71,131,35" Grid.RowSpan="2"/>
+        <CheckBox x:Name="cbox2D" Content="2D" Grid.Row="1" Grid.Column="0" Margin="94,24,76,19" Checked="cboxChecked" />
+        <CheckBox x:Name="cbox3D" Content="3D" Grid.Row="1" Grid.Column="1" Margin="94,24,76,19" Checked="cboxChecked"/>
+        <Label Content="Precio de Boleto" FontWeight="ExtraBold" Grid.Column="0" Margin="10,71,103,26" Grid.Row="1" Grid.RowSpan="2"/>
+        <Label Content="Adultos:"  Grid.Column="0" Margin="52,23,61,3" Grid.Row="2"/>
+        <Label Content="Niños:"  Grid.Column="1" Margin="37,23,76,3" Grid.Row="2"/>
+        <Label x:Name="labelAdults" Grid.Column="0" Margin="113,23,0,3" Grid.Row="2"/>
+        <Label x:Name="labelKids" Grid.Column="1" Margin="94,23,19,3" Grid.Row="2"/>
+        <Label Content="Cantidad de Boletos" FontWeight="ExtraBold" Grid.Column="0" Margin="10,71,61,10" Grid.Row="2" Grid.RowSpan="2"/>
+        <Label Content="Adultos:"  Grid.Column="0" Margin="52,23,61,3" Grid.Row="3"/>
+        <Label Content="Niños:" Grid.Column="1" Margin="37,23,76,3" Grid.Row="3"/>
+        <TextBox x:Name="txtAdult" Grid.Column="0" Margin="108,31,34,3" Grid.Row="3" />
+        <TextBox x:Name="txtKids" Grid.Column="1" Margin="93,31,49,3" Grid.Row="3" />
+        <Label Content="Total a pagar" Grid.Column="1" Margin="10,30,103,75" Grid.Row="4"/>
+        <Label x:Name="labelPagar" Content="C$ " Grid.Column="1" Margin="113,30,0,75" Grid.Row="4"/>
+        <Button x:Name="btnCalc" Content="Calcular" Margin="70,57,51,59" Grid.Row="4" Click="btnCalc_Click"/>
     </Grid>
 </Window>

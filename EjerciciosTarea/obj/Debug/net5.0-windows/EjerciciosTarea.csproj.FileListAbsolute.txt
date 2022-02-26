@@ -32,4 +32,11 @@ C:\Users\lenovo\Documents\PROYECTOS VISUAL\EjerciciosTarea\EjerciciosTarea\obj\D
 C:\Users\lenovo\Documents\PROYECTOS VISUAL\EjerciciosTarea\EjerciciosTarea\obj\Debug\net5.0-windows\Views\ValidateWindow.g.cs
 C:\Users\lenovo\Documents\PROYECTOS VISUAL\EjerciciosTarea\EjerciciosTarea\obj\Debug\net5.0-windows\Views\MovieWindow.baml
 C:\Users\lenovo\Documents\PROYECTOS VISUAL\EjerciciosTarea\EjerciciosTarea\obj\Debug\net5.0-windows\Views\ValidateWindow.baml
+C:\Users\lenovo\Documents\PROYECTOS VISUAL\EjerciciosTarea\EjerciciosTarea\bin\Debug\net5.0-windows\Resources\Icons\5027822_atm_cash_machine_icon.png
+C:\Users\lenovo\Documents\PROYECTOS VISUAL\EjerciciosTarea\EjerciciosTarea\bin\Debug\net5.0-windows\Resources\Icons\6971204_id_voter_validation_icon.png
+C:\Users\lenovo\Documents\PROYECTOS VISUAL\EjerciciosTarea\EjerciciosTarea\bin\Debug\net5.0-windows\Resources\Icons\idea.png
+C:\Users\lenovo\Documents\PROYECTOS VISUAL\EjerciciosTarea\EjerciciosTarea\bin\Debug\net5.0-windows\Resources\Icons\mundo.png
+C:\Users\lenovo\Documents\PROYECTOS VISUAL\EjerciciosTarea\EjerciciosTarea\bin\Debug\net5.0-windows\Resources\Icons\reproductor-de-video.png
+C:\Users\lenovo\Documents\PROYECTOS VISUAL\EjerciciosTarea\EjerciciosTarea\bin\Debug\net5.0-windows\Resources\Icons\salida.png
+C:\Users\lenovo\Documents\PROYECTOS VISUAL\EjerciciosTarea\EjerciciosTarea\bin\Debug\net5.0-windows\Resources\Icons\texto.png
 C:\Users\lenovo\Documents\PROYECTOS VISUAL\EjerciciosTarea\EjerciciosTarea\obj\Debug\net5.0-windows\EjerciciosTarea.csproj.AssemblyReference.cache

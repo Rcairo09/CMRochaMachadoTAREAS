@@ -69,7 +69,7 @@ namespace EjerciciosTarea.Views {
                 return;
             }
             _contentLoaded = true;
-            System.Uri resourceLocater = new System.Uri("/EjerciciosTarea;V1.0.0.0;component/views/countrieswindow.xaml", System.UriKind.Relative);
+            System.Uri resourceLocater = new System.Uri("/EjerciciosTarea;component/views/countrieswindow.xaml", System.UriKind.Relative);
             
             #line 1 "..\..\..\..\Views\CountriesWindow.xaml"
             System.Windows.Application.LoadComponent(this, resourceLocater);

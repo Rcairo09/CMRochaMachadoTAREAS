@@ -101,9 +101,7 @@ namespace EjerciciosTarea.Controllers
         {
             string a = cw.Departamentos.Text;
             string b = cw.Municipios.SelectedItem.ToString();
-            MessageBox.Show("Usted ha elegido: "+a +", "+ b);
-            Departamentos_SelectionChanged(sender, e);
-            
+            MessageBox.Show("Usted ha elegido: "+a +", "+ b); 
             
         }
     }

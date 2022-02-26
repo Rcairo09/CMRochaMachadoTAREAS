@@ -32,6 +32,7 @@ namespace EjerciciosTarea.Controllers
         {
             if(cw.Convert1.SelectedIndex == 0 && cw.Convert2.SelectedIndex == 1)
             {
+                
                 double a = Convert.ToDouble(cw.txt1.Text);
                 double result = a / 35.46;
                 cw.txt2.Text = Convert.ToString(result);
