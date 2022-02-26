@@ -1,0 +1,29 @@
+﻿<Window x:Class="EjerciciosTarea.Views.MovieWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:EjerciciosTarea.Views"
+        mc:Ignorable="d"
+        Title="MovieWindow" Height="450" Width="450">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="*"></RowDefinition>
+            <RowDefinition Height="*"></RowDefinition>
+            <RowDefinition Height="*"></RowDefinition>
+            <RowDefinition Height="*"></RowDefinition>
+            <RowDefinition Height="150"></RowDefinition>
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="*"></ColumnDefinition>
+            <ColumnDefinition Width="*"></ColumnDefinition>
+        </Grid.ColumnDefinitions>
+        <Label Content="Pelicula" FontWeight="Bold" Grid.Row="0" Grid.Column="0" Margin="10,10,155,35"/>
+        <ComboBox x:Name="cboxMovie" Grid.Row="0" Grid.ColumnSpan="2" Margin="89,10,33,35">
+            <ComboBoxItem>STAR WARS – El ascenso de Skywalker</ComboBoxItem>
+        </ComboBox>
+        <Label Content="Tipo de Sala" FontWeight="Bold" Grid.Column="0" Margin="10,71,131,45" Grid.RowSpan="2"/>
+        <CheckBox x:Name="cbox2D" Content="2D" Grid.Row="1" Grid.Column="0" Margin="94,24,76,35"/>
+        <CheckBox x:Name="cbox3D" Content="3D" Grid.Row="1" Grid.Column="1" Margin="94,24,76,35"/>
+    </Grid>
+</Window>

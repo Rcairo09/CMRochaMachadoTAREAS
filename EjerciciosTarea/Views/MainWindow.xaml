@@ -1,0 +1,51 @@
+﻿<Window x:Class="EjerciciosTarea.Views.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:EjerciciosTarea.Views"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800" Loaded="Window_Loaded">
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="800*">
+                
+            </ColumnDefinition>
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition></RowDefinition>
+        </Grid.RowDefinitions>
+        <Menu x:Name="principalMenu" IsMainMenu="True" Grid.Row="0" Grid.Column="0">
+            <MenuItem Header="Aplicación">
+                <MenuItem Name="configMenu" Header="Configuracion">
+                    <MenuItem.Icon>
+                        <Image Source="pack://siteoforigin:,,,/Resources/Icons/config.png"/>
+                    </MenuItem.Icon>
+                </MenuItem>
+                <MenuItem Name="exitMenu" Header="Salir">
+
+                </MenuItem>
+            </MenuItem>
+            <MenuItem Header="Miscelaneos">
+                <MenuItem Name="countriesMenu" Header="Ciudades">
+
+                </MenuItem>
+                <MenuItem Name="textMenu" Header="Textos">
+
+                </MenuItem>
+                <MenuItem Name="convertMenu" Header="Convertidor">
+                    
+                </MenuItem>
+                <MenuItem Name="movieWindow" Header="Peliculas">
+
+                </MenuItem>
+                <MenuItem Name="validateWindow" Header="Validar Cedula">
+
+                </MenuItem>
+                <MenuItem Name="personWindow" Header="Persona">
+
+                </MenuItem>
+            </MenuItem>
+        </Menu>
+    </Grid>
+</Window>

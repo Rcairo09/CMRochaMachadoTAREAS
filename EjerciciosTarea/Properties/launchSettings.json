@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "EjerciciosTarea": {
+      "commandName": "Project",
+      "nativeDebugging": false
+    }
+  }
+}

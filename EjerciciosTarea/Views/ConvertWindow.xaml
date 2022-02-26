@@ -1,0 +1,40 @@
+﻿<Window x:Class="EjerciciosTarea.Views.ConvertWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:EjerciciosTarea.Views"
+        mc:Ignorable="d"
+        Title="ConvertWindow" Height="350" Width="413">
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="200"></ColumnDefinition>
+            <ColumnDefinition Width="200"></ColumnDefinition>
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="25"></RowDefinition>
+            <RowDefinition Height="30"></RowDefinition>
+            <RowDefinition Height="45"></RowDefinition>
+            <RowDefinition Height="45"></RowDefinition>
+            <RowDefinition Height="25"></RowDefinition>
+            <RowDefinition Height="Auto"></RowDefinition>
+        </Grid.RowDefinitions>
+        <Label Content="Moneda que tengo" Grid.Row="1" Grid.Column="0" Margin="39,0,39,0"/>
+        <Label Content="Moneda que deseo" Grid.Row="1" Grid.Column="1" Margin="43,0,43,0"/>
+        <ComboBox x:Name="Convert1" Grid.Row="2" Grid.Column="0" Margin="10,0,10,20" >
+            <ComboBoxItem>Cordoba</ComboBoxItem>
+            <ComboBoxItem>Dolar</ComboBoxItem>
+            <ComboBoxItem>Euro</ComboBoxItem>
+        </ComboBox>
+        <ComboBox x:Name="Convert2" Grid.Row="2" Grid.Column="1" Margin="10,0,10,20" >
+            <ComboBoxItem>Cordoba</ComboBoxItem>
+            <ComboBoxItem>Dolar</ComboBoxItem>
+            <ComboBoxItem>Euro</ComboBoxItem>
+        </ComboBox>
+        <Label Content="Monto" Grid.Column="0" Grid.Row="3" Margin="10,7,142,13" />
+        <Label Content="Monto" Grid.Column="1" Grid.Row="3" Margin="10,7,142,13" />
+        <TextBox x:Name="txt1" Grid.Column="0" Grid.Row="4" Margin="10,0,10,0"/>
+        <TextBox x:Name="txt2" Grid.Column="1" Grid.Row="4" Margin="10,0,10,0"/>
+        <Button x:Name="btnCalc" Content="Calcular" Grid.ColumnSpan="2" Grid.Row="5" Margin="39,23,43,-50"/>
+    </Grid>
+</Window>
